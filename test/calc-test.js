@@ -1,8 +1,8 @@
 const { assert: {equal, isNumber} } = require('chai')
-const add = require('../lib/add')
+const calc = require('../lib/calc')
 
-describe('add', () => {
+describe('calc', () => {
     it('should return a number', () => {
-        isNumber(add())
+        isNumber(calc())
     })
 })
